@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Acquisition Financial Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css" />
+    <link rel="stylesheet" href="calc.css" />
+</head>
+<body>
+    <h1>Business Acquisition Financial Calculator</h1>
+
+    <!-- Heading for the Variables Section -->
+    <h2 style="border-bottom: 2px solid #000; padding-bottom: 5px;">Variables</h2>
+    <div class="container" id="variablesContainer">
+        <!-- Sliders for Variables -->
+    </div>
+
+    <!-- Heading for the Calculated Values Section -->
+    <h2 style="border-bottom: 2px solid #000; padding-bottom: 5px;">Calculated Values</h2>
+    <div class="container" id="calculatedValuesContainer">
+        <!-- Calculated Values Output -->
+    </div>
+
+    <!-- Button to Save Scenario -->
+    <div class="comparison-container">
+        <button id="saveScenarioButton">Save Scenario</button>
+        <button id="deleteScenarioButton">Delete Scenario</button>
+        <button id="exportScenariosButton">Export Scenarios</button>
+        <button id="loadScenariosButton">Load Scenarios</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+    <script src="calc.js"></script>
+</html>
